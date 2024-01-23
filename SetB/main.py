@@ -15,7 +15,7 @@ def recommend_fruits_api():
         }
 
 
-        api_key = "OPENAI_API_KEY"
+        api_key = "OPEN_API_KEY"
         client = OpenAIClient(api_key)
         recommendations = client.generate_fruit_recommendations(data["party_on_weekends"], 
                                                                 data["flavor"], data["texture"], 
